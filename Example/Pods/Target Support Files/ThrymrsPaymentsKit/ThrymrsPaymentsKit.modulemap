@@ -1,0 +1,6 @@
+framework module ThrymrsPaymentsKit {
+  umbrella header "ThrymrsPaymentsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

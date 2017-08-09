@@ -1,0 +1,22 @@
+{
+  "name": "ThrymrsPaymentsKit",
+  "version": "0.1.0",
+  "summary": "A short description of ThrymrsPaymentsKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Shivakumar799/ThrymrsPaymentsKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Shivakumar799": "shivakumar.muddunuru@thrymr.net"
+  },
+  "source": {
+    "git": "https://github.com/Shivakumar799/ThrymrsPaymentsKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ThrymrsPaymentsKit/Classes/**/*"
+}

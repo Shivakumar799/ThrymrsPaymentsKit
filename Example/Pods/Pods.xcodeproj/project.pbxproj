@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40A1DB5FE5348559BA459CBBC28BFE55 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CEDE62336BF9155DD1C3B0AB3C022 /* ReplaceMe.m */; };
+		4743F538FF8EC50BAD19732CBBAA2AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4858B2778FA9EC6FCA780D78407E846A /* Pods-ThrymrsPaymentsKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC21E4E7EFF9CC471B3635EF3C169EEA /* Pods-ThrymrsPaymentsKit_Example-dummy.m */; };
+		4ABF2B4EF9473BD654E6431FD408E8D8 /* ThrymrsPaymentsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4E472744825B0A7C69984B961F1969 /* ThrymrsPaymentsKit-dummy.m */; };
+		5D54B670B404A339E438196829DA8734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61F0C227F1D1554D2B7059674E892BF3 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8265307F5A36F2C52F7B1A5A306A9CC1 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6306B16FCEC046C978BB2FE9C028A09 /* Pods-ThrymrsPaymentsKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7D5BB4047FC71A1997267450CD1504 /* Pods-ThrymrsPaymentsKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49779189C377582767A0A682BAB72F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CAC291A1A5AFD1128E4E7FA4F5A53BC1 /* ThrymrsPaymentsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0118435660D5A753ABE3DD387DC00BE2 /* ThrymrsPaymentsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE481BD66E6A7C7C28C34A8086259671 /* Pods-ThrymrsPaymentsKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B49C61594BD3D1664A3834CACF65962C /* Pods-ThrymrsPaymentsKit_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF13325FF4D748C82285692028BEECB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23627D4314ACEC01EB870593F07584B;
+			remoteInfo = ThrymrsPaymentsKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0118435660D5A753ABE3DD387DC00BE2 /* ThrymrsPaymentsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThrymrsPaymentsKit-umbrella.h"; sourceTree = "<group>"; };
+		10C5F30ECDBE11BBAF10A3BC7A6ACBB6 /* Pods-ThrymrsPaymentsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThrymrsPaymentsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1A8647194D875690C8D8301D0F896D8E /* ThrymrsPaymentsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThrymrsPaymentsKit-prefix.pch"; sourceTree = "<group>"; };
+		1E19A75AE9BD91047550484D4352BAB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4212E716D6AF4F6B12D18DB8839E5C49 /* Pods_ThrymrsPaymentsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThrymrsPaymentsKit_Tests.framework; path = "Pods-ThrymrsPaymentsKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44865160127E9EDDD56EF58487B6861A /* ThrymrsPaymentsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThrymrsPaymentsKit.xcconfig; sourceTree = "<group>"; };
+		48C2A5EEE372137F476C9BADB323C9F7 /* Pods-ThrymrsPaymentsKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThrymrsPaymentsKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		535F4F8EDFB04F0AC707E16E202F75FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6455E282C66C057A2B760ADD8A219478 /* Pods_ThrymrsPaymentsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThrymrsPaymentsKit_Example.framework; path = "Pods-ThrymrsPaymentsKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F378B3A99AA890D87F56F7DDA7C5D35 /* Pods-ThrymrsPaymentsKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThrymrsPaymentsKit_Example-resources.sh"; sourceTree = "<group>"; };
+		8265307F5A36F2C52F7B1A5A306A9CC1 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThrymrsPaymentsKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		835F5FC502B36E4B8B673A0579A17B85 /* Pods-ThrymrsPaymentsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ThrymrsPaymentsKit_Tests.modulemap"; sourceTree = "<group>"; };
+		8B7D5BB4047FC71A1997267450CD1504 /* Pods-ThrymrsPaymentsKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThrymrsPaymentsKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		945023015E1A9A2454C46D59B1F1AE9D /* Pods-ThrymrsPaymentsKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThrymrsPaymentsKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		9A6B7CABADDE2F0560329906EA2A8D84 /* Pods-ThrymrsPaymentsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThrymrsPaymentsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9B765373C6BBC563A91368F83348D3F6 /* Pods-ThrymrsPaymentsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThrymrsPaymentsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FF825FE730EE1F2C0FB33DDA9DD228C /* ThrymrsPaymentsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ThrymrsPaymentsKit.modulemap; sourceTree = "<group>"; };
+		AA0E860BC8DBBA081F7DF097D997D480 /* Pods-ThrymrsPaymentsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThrymrsPaymentsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ACA9D54F53F42943434E384F9A6027AF /* Pods-ThrymrsPaymentsKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThrymrsPaymentsKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B49C61594BD3D1664A3834CACF65962C /* Pods-ThrymrsPaymentsKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThrymrsPaymentsKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		B588608C958885509E4EB6417A96FA9A /* Pods-ThrymrsPaymentsKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThrymrsPaymentsKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8BCCD29BDF1669D731277F3D799A481 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9CEDE62336BF9155DD1C3B0AB3C022 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ThrymrsPaymentsKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		CA30BA36D4D12AE8758FA24285E9C74E /* ThrymrsPaymentsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThrymrsPaymentsKit.framework; path = ThrymrsPaymentsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC21E4E7EFF9CC471B3635EF3C169EEA /* Pods-ThrymrsPaymentsKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThrymrsPaymentsKit_Example-dummy.m"; sourceTree = "<group>"; };
+		D070A63F6902AC72FF81B23237E60EDF /* Pods-ThrymrsPaymentsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ThrymrsPaymentsKit_Example.modulemap"; sourceTree = "<group>"; };
+		E5AF7124C9A870635DA02EFDFE9EB44F /* Pods-ThrymrsPaymentsKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThrymrsPaymentsKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F5320291EA8E20B559E64D095C172604 /* Pods-ThrymrsPaymentsKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThrymrsPaymentsKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F993089D7E284FE7669AC3BD561815AD /* Pods-ThrymrsPaymentsKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThrymrsPaymentsKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FE4E472744825B0A7C69984B961F1969 /* ThrymrsPaymentsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThrymrsPaymentsKit-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		271C1BFC3733303F5CD72161EDA867A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4743F538FF8EC50BAD19732CBBAA2AA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28765C3266BF6443E4D0E0A677D40EEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D54B670B404A339E438196829DA8734 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8963CD1537635179387941AF5BE540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49779189C377582767A0A682BAB72F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2198F8831B51F1F143EF6D1258240A40 /* ThrymrsPaymentsKit */ = {
+			isa = PBXGroup;
+			children = (
+				BA9CEDE62336BF9155DD1C3B0AB3C022 /* ReplaceMe.m */,
+				50E3D41B9DCF9294BE3636C425113728 /* Support Files */,
+			);
+			name = ThrymrsPaymentsKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2FFE328510C137BEB6D59B23EAAC2C83 /* Pods-ThrymrsPaymentsKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				535F4F8EDFB04F0AC707E16E202F75FC /* Info.plist */,
+				D070A63F6902AC72FF81B23237E60EDF /* Pods-ThrymrsPaymentsKit_Example.modulemap */,
+				B588608C958885509E4EB6417A96FA9A /* Pods-ThrymrsPaymentsKit_Example-acknowledgements.markdown */,
+				48C2A5EEE372137F476C9BADB323C9F7 /* Pods-ThrymrsPaymentsKit_Example-acknowledgements.plist */,
+				CC21E4E7EFF9CC471B3635EF3C169EEA /* Pods-ThrymrsPaymentsKit_Example-dummy.m */,
+				E5AF7124C9A870635DA02EFDFE9EB44F /* Pods-ThrymrsPaymentsKit_Example-frameworks.sh */,
+				6F378B3A99AA890D87F56F7DDA7C5D35 /* Pods-ThrymrsPaymentsKit_Example-resources.sh */,
+				8265307F5A36F2C52F7B1A5A306A9CC1 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h */,
+				AA0E860BC8DBBA081F7DF097D997D480 /* Pods-ThrymrsPaymentsKit_Example.debug.xcconfig */,
+				10C5F30ECDBE11BBAF10A3BC7A6ACBB6 /* Pods-ThrymrsPaymentsKit_Example.release.xcconfig */,
+			);
+			name = "Pods-ThrymrsPaymentsKit_Example";
+			path = "Target Support Files/Pods-ThrymrsPaymentsKit_Example";
+			sourceTree = "<group>";
+		};
+		5014803B4EC91ED7AC01B3FCE711F9A4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FFE328510C137BEB6D59B23EAAC2C83 /* Pods-ThrymrsPaymentsKit_Example */,
+				774F87DC84E4480342FE8BD8C8DF9F0F /* Pods-ThrymrsPaymentsKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		50E3D41B9DCF9294BE3636C425113728 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E19A75AE9BD91047550484D4352BAB5 /* Info.plist */,
+				9FF825FE730EE1F2C0FB33DDA9DD228C /* ThrymrsPaymentsKit.modulemap */,
+				44865160127E9EDDD56EF58487B6861A /* ThrymrsPaymentsKit.xcconfig */,
+				FE4E472744825B0A7C69984B961F1969 /* ThrymrsPaymentsKit-dummy.m */,
+				1A8647194D875690C8D8301D0F896D8E /* ThrymrsPaymentsKit-prefix.pch */,
+				0118435660D5A753ABE3DD387DC00BE2 /* ThrymrsPaymentsKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ThrymrsPaymentsKit";
+			sourceTree = "<group>";
+		};
+		774F87DC84E4480342FE8BD8C8DF9F0F /* Pods-ThrymrsPaymentsKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B8BCCD29BDF1669D731277F3D799A481 /* Info.plist */,
+				835F5FC502B36E4B8B673A0579A17B85 /* Pods-ThrymrsPaymentsKit_Tests.modulemap */,
+				F5320291EA8E20B559E64D095C172604 /* Pods-ThrymrsPaymentsKit_Tests-acknowledgements.markdown */,
+				ACA9D54F53F42943434E384F9A6027AF /* Pods-ThrymrsPaymentsKit_Tests-acknowledgements.plist */,
+				B49C61594BD3D1664A3834CACF65962C /* Pods-ThrymrsPaymentsKit_Tests-dummy.m */,
+				F993089D7E284FE7669AC3BD561815AD /* Pods-ThrymrsPaymentsKit_Tests-frameworks.sh */,
+				945023015E1A9A2454C46D59B1F1AE9D /* Pods-ThrymrsPaymentsKit_Tests-resources.sh */,
+				8B7D5BB4047FC71A1997267450CD1504 /* Pods-ThrymrsPaymentsKit_Tests-umbrella.h */,
+				9B765373C6BBC563A91368F83348D3F6 /* Pods-ThrymrsPaymentsKit_Tests.debug.xcconfig */,
+				9A6B7CABADDE2F0560329906EA2A8D84 /* Pods-ThrymrsPaymentsKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-ThrymrsPaymentsKit_Tests";
+			path = "Target Support Files/Pods-ThrymrsPaymentsKit_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D07DB4A1D7B678F00C13B9E80D1CF6ED /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FD94947EA8F08573C814569668431474 /* Products */,
+				5014803B4EC91ED7AC01B3FCE711F9A4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D07DB4A1D7B678F00C13B9E80D1CF6ED /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2198F8831B51F1F143EF6D1258240A40 /* ThrymrsPaymentsKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD94947EA8F08573C814569668431474 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6455E282C66C057A2B760ADD8A219478 /* Pods_ThrymrsPaymentsKit_Example.framework */,
+				4212E716D6AF4F6B12D18DB8839E5C49 /* Pods_ThrymrsPaymentsKit_Tests.framework */,
+				CA30BA36D4D12AE8758FA24285E9C74E /* ThrymrsPaymentsKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11D767E0CD062A18428C26C6517A8789 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F0C227F1D1554D2B7059674E892BF3 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BC36900C72D84EBE79A062D28744CC6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6306B16FCEC046C978BB2FE9C028A09 /* Pods-ThrymrsPaymentsKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D00C1FF9010CC6EEE1C5FA69EC1578DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC291A1A5AFD1128E4E7FA4F5A53BC1 /* ThrymrsPaymentsKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		12DC4777581C32C33172E76D20B57A31 /* Pods-ThrymrsPaymentsKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FF5C630745A519DE27635C2982CB06 /* Build configuration list for PBXNativeTarget "Pods-ThrymrsPaymentsKit_Example" */;
+			buildPhases = (
+				84C381DC20A84D532F8BAD9495487CD5 /* Sources */,
+				28765C3266BF6443E4D0E0A677D40EEB /* Frameworks */,
+				11D767E0CD062A18428C26C6517A8789 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B780111DFA0929D9CF680C9BEF765A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ThrymrsPaymentsKit_Example";
+			productName = "Pods-ThrymrsPaymentsKit_Example";
+			productReference = 6455E282C66C057A2B760ADD8A219478 /* Pods_ThrymrsPaymentsKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		30B284A98C8E264127F15E627C970760 /* Pods-ThrymrsPaymentsKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C21031A1D7D923E0D931CAD4B845370 /* Build configuration list for PBXNativeTarget "Pods-ThrymrsPaymentsKit_Tests" */;
+			buildPhases = (
+				15872006B9E70FB6444F2B074C069BB0 /* Sources */,
+				271C1BFC3733303F5CD72161EDA867A2 /* Frameworks */,
+				9BC36900C72D84EBE79A062D28744CC6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ThrymrsPaymentsKit_Tests";
+			productName = "Pods-ThrymrsPaymentsKit_Tests";
+			productReference = 4212E716D6AF4F6B12D18DB8839E5C49 /* Pods_ThrymrsPaymentsKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E23627D4314ACEC01EB870593F07584B /* ThrymrsPaymentsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9B1C24E3BCC721B122C2AB8057B220 /* Build configuration list for PBXNativeTarget "ThrymrsPaymentsKit" */;
+			buildPhases = (
+				C769AAE3D842CCA24EF9C2BB1C6EF5E3 /* Sources */,
+				DD8963CD1537635179387941AF5BE540 /* Frameworks */,
+				D00C1FF9010CC6EEE1C5FA69EC1578DB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThrymrsPaymentsKit;
+			productName = ThrymrsPaymentsKit;
+			productReference = CA30BA36D4D12AE8758FA24285E9C74E /* ThrymrsPaymentsKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FD94947EA8F08573C814569668431474 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12DC4777581C32C33172E76D20B57A31 /* Pods-ThrymrsPaymentsKit_Example */,
+				30B284A98C8E264127F15E627C970760 /* Pods-ThrymrsPaymentsKit_Tests */,
+				E23627D4314ACEC01EB870593F07584B /* ThrymrsPaymentsKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15872006B9E70FB6444F2B074C069BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE481BD66E6A7C7C28C34A8086259671 /* Pods-ThrymrsPaymentsKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C381DC20A84D532F8BAD9495487CD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4858B2778FA9EC6FCA780D78407E846A /* Pods-ThrymrsPaymentsKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C769AAE3D842CCA24EF9C2BB1C6EF5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A1DB5FE5348559BA459CBBC28BFE55 /* ReplaceMe.m in Sources */,
+				4ABF2B4EF9473BD654E6431FD408E8D8 /* ThrymrsPaymentsKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B780111DFA0929D9CF680C9BEF765A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThrymrsPaymentsKit;
+			target = E23627D4314ACEC01EB870593F07584B /* ThrymrsPaymentsKit */;
+			targetProxy = FF13325FF4D748C82285692028BEECB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17A2EAB410A46689BC31EB8545379DAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0E860BC8DBBA081F7DF097D997D480 /* Pods-ThrymrsPaymentsKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Example/Pods-ThrymrsPaymentsKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ThrymrsPaymentsKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F85B92426E1E5D48761E77E4D2A3727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44865160127E9EDDD56EF58487B6861A /* ThrymrsPaymentsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThrymrsPaymentsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ThrymrsPaymentsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		860186917C5595F8DFE459C38EF08028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44865160127E9EDDD56EF58487B6861A /* ThrymrsPaymentsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThrymrsPaymentsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ThrymrsPaymentsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		898EC715354CA1E8433BE248A62D13F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B765373C6BBC563A91368F83348D3F6 /* Pods-ThrymrsPaymentsKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Tests/Pods-ThrymrsPaymentsKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ThrymrsPaymentsKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B7FFB81322986C2B8627A53DADDC3C2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C5F30ECDBE11BBAF10A3BC7A6ACBB6 /* Pods-ThrymrsPaymentsKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Example/Pods-ThrymrsPaymentsKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ThrymrsPaymentsKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC260E80C17D5F0ED75F00D358569B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A6B7CABADDE2F0560329906EA2A8D84 /* Pods-ThrymrsPaymentsKit_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Tests/Pods-ThrymrsPaymentsKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ThrymrsPaymentsKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C21031A1D7D923E0D931CAD4B845370 /* Build configuration list for PBXNativeTarget "Pods-ThrymrsPaymentsKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898EC715354CA1E8433BE248A62D13F9 /* Debug */,
+				EC260E80C17D5F0ED75F00D358569B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9B1C24E3BCC721B122C2AB8057B220 /* Build configuration list for PBXNativeTarget "ThrymrsPaymentsKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F85B92426E1E5D48761E77E4D2A3727 /* Debug */,
+				860186917C5595F8DFE459C38EF08028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FF5C630745A519DE27635C2982CB06 /* Build configuration list for PBXNativeTarget "Pods-ThrymrsPaymentsKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A2EAB410A46689BC31EB8545379DAE /* Debug */,
+				B7FFB81322986C2B8627A53DADDC3C2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
