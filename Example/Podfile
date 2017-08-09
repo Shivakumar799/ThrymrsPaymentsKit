@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ThrymrsPaymentsKit_Example' do
+  pod 'ThrymrsPaymentsKit', :path => '../'
+
+  target 'ThrymrsPaymentsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
