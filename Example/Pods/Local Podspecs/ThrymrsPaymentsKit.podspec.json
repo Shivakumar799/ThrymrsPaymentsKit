@@ -1,9 +1,9 @@
 {
   "name": "ThrymrsPaymentsKit",
   "version": "0.1.0",
-  "summary": "A short description of ThrymrsPaymentsKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Shivakumar799/ThrymrsPaymentsKit",
+  "summary": "Description Description Description Description  ThrymrsPaymentsKit.",
+  "description": "Description Description Description Description Description",
+  "homepage": "https://github.com/Shivakumar799/ThrymrsPaymentsKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,5 +18,16 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ThrymrsPaymentsKit/Classes/**/*"
+  "source_files": "ThrymrsPaymentsKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "OpenSSL": [
+
+    ],
+    "TFHpple": [
+
+    ]
+  }
 }

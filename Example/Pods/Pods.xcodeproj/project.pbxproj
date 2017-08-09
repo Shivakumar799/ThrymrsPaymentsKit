@@ -7,61 +7,286 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40A1DB5FE5348559BA459CBBC28BFE55 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9CEDE62336BF9155DD1C3B0AB3C022 /* ReplaceMe.m */; };
-		4743F538FF8EC50BAD19732CBBAA2AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		4858B2778FA9EC6FCA780D78407E846A /* Pods-ThrymrsPaymentsKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC21E4E7EFF9CC471B3635EF3C169EEA /* Pods-ThrymrsPaymentsKit_Example-dummy.m */; };
-		4ABF2B4EF9473BD654E6431FD408E8D8 /* ThrymrsPaymentsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE4E472744825B0A7C69984B961F1969 /* ThrymrsPaymentsKit-dummy.m */; };
-		5D54B670B404A339E438196829DA8734 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		61F0C227F1D1554D2B7059674E892BF3 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8265307F5A36F2C52F7B1A5A306A9CC1 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07CCA2377CCFDD58EB8F0738D9D88917 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 76324EE0AB0D145D7E1F6874E498B52A /* AFHTTPRequestOperationManager.m */; };
+		0C1869A00421DFBA1C82AF772E2F13BE /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BCFC947DBB4E2EB79BF17D121B9961 /* AFNetworking-dummy.m */; };
+		0C592BEC4544F3ED13507C1BB5AA583B /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BDB50E192F9E81A3E1194BEF361120 /* Base64.m */; };
+		0DD519176F5025EA203D9DD53C7456C3 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B7B4893E1B3775929471D2165B28D8 /* AFNetworkReachabilityManager.m */; };
+		0F433A80193ACD16AF746D01A22EE0C1 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A83F60EACB1FE4AC9159037D1398445B /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14B0BC77331474D99BC4A313B5893457 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8265307F5A36F2C52F7B1A5A306A9CC1 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16BD1651AF0AE0F1DCA312EB33AD2FB2 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = B712597F08789799307CF8D49A8CF2FC /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1841F4F769E036BCEE521035DD4C9EBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C77C14CE65579433C9B53BAFC3E366 /* Foundation.framework */; };
+		185FBF8C1848D3B1D908F2CFAFA088B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C77C14CE65579433C9B53BAFC3E366 /* Foundation.framework */; };
+		1D713786999B405071D2D387463EF5C0 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C60B6C480AA74269B93C8E92038FE9B4 /* XPathQuery.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1D974D4F7BB49961BF96F2A9084B4812 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A943306575514640252D5019102BB4E /* UIImageView+AFNetworking.m */; };
+		23F62266558CF7EA25B7AE2C7E75E67F /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BE9CAE4BAD17EF6EA43DA4A3FE044A /* UIAlertView+AFNetworking.m */; };
+		25E58152597C474DC6A3F6C5CA90CADE /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 65EC647C846B9C463A134EC6D32185F8 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ED997B259CF87164EB742D3C6E3C670 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E572648E7D96A99740B2C107F4F8264 /* AFURLResponseSerialization.m */; };
+		300F34DBD1EAD72F220D42721638201C /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EF2FF4AD49A5AA418522F91EAB2CBD /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37700BB8D4FF2ABDB00FAEF1B539C440 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DEEA4AA9E73896E0EFAB452A8D6658F /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3998F3080D6EE6E6A3D3700424730886 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2492D779206C1A6938D0473A25E381CB /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C4406F5BE08998EF225724EDA89C1B1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5615C995DF578D82FF223A10D5AF723E /* MobileCoreServices.framework */; };
+		452BE369A0DEEFCAD4A522BA15C3EC53 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C7E85FFC12868E778CB9F9758264F /* AFHTTPSessionManager.m */; };
+		45F425E0B4D4496A9B4E78F3A46D2A30 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = E9013653228B0161229A403C37B17EC0 /* TFHpple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		46003CFB00EE9EDB7751E5D9515CC8D4 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD07B5B7D96AA167DED23B5BF0F404B /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4743F538FF8EC50BAD19732CBBAA2AA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C77C14CE65579433C9B53BAFC3E366 /* Foundation.framework */; };
+		485E2C5ACB6046EBA39015AE5CDC18B2 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B45DD4032E87CCC150C0283300FFA67 /* AFURLConnectionOperation.m */; };
+		509A14FF3282E1DB5FADBB81635D71EA /* CCTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C624F2B6641172DAB09EF5F28E1ED9 /* CCTool.m */; };
+		50D1316AE12493D48D36ACD12F9977B3 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6EAA7F2F4ECC9FB81024F7239AED4A /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5286E996186A50899A9B6E300D65015B /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1575D2BB30C6C7E96124DF380D3E3B54 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A93A8656A260977A67B4682BCBA26F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9299AE042E1C790912F325F8E7282F /* AFHTTPRequestOperation.m */; };
+		558EF0410DB5DE4F1B6D039AF0C64614 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FF64FFAD20A2FFA3E9927B9B5F8C6F /* Base64.h */; };
+		57138B933613CFE20D2501F2991DF17B /* SharedData.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EAEDF08C52B22D3158EB89D02C934B2 /* SharedData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59B5809E8E97F19BCDF9B18278740A6B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8AAA3DBE98AE61F5465411BB6C075E /* UIActivityIndicatorView+AFNetworking.m */; };
+		59EED3301F3B1C0B002CEEDC /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FF64FFAD20A2FFA3E9927B9B5F8C6F /* Base64.h */; };
+		59EED3311F3B1C31002CEEDC /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FF64FFAD20A2FFA3E9927B9B5F8C6F /* Base64.h */; };
+		59EED3321F3B1C32002CEEDC /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FF64FFAD20A2FFA3E9927B9B5F8C6F /* Base64.h */; };
+		59EED3331F3B1C33002CEEDC /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = 07FF64FFAD20A2FFA3E9927B9B5F8C6F /* Base64.h */; };
+		5F4ADB57CEB7A57AC58F1E6AAD42A72A /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DB6B9184B6F6F33D60F291DB6E9F2518 /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C2A0882C15C9CAA1BC4DF1AD09771F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC78898451A1F0848A9F2510DC93B37 /* SystemConfiguration.framework */; };
+		642522FB516DB5DAE5F03AE71D45BF28 /* ThrymrsPaymentsKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED660B22E61EABA8C392ADCDDF3D2D0E /* ThrymrsPaymentsKit-dummy.m */; };
+		693DD33331751805E1E6EE1FAE057D30 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4684B5ACC9C106A5A41C2D8AF336823C /* CoreFoundation.framework */; };
+		6C267D3E4575F21B78CA423011EFD7C8 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D96E3639C5F1CD631C8092630084E8 /* TFHppleElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6F9313FED3763C57F6EC60B6175CDD25 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 172E03DE0E6EA18E338DE22FF74BDBEB /* UIWebView+AFNetworking.m */; };
+		6FC4B7B0F5119FBBD5120C275A72F9B3 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC832EB22277C9C6B105E923464B39B2 /* AFSecurityPolicy.m */; };
+		71AFB2FDE9B7AAAC73E116EA9B3394C3 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C3DD0B6DD5A104BAB85A91D6277F2F /* XPathQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78705591C6850CE867D0356F476E0B6D /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AA80320226FE44B8B2BA0446334617C4 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A6F8593BBD598773DCC198202C35A7F /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 136FF9D3D1B5851F6F7F18AB270DC916 /* UIButton+AFNetworking.m */; };
+		7CFC9154F164D2B85083A8AAD71CD6FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7994115B4A83730A94D78FCCEBC994B /* Security.framework */; };
+		8634FF44ABEFF40B5D561593B24C9B1E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB70727BECA5444776F8C5A5B4540FE /* AFURLSessionManager.m */; };
+		86A4516B3CE647E633349AC05226C207 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F39E9BE2DF5E0C983AE382D92987D00C /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88C39B2BA87AF9B49BA7EBAE8C97A97E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C77C14CE65579433C9B53BAFC3E366 /* Foundation.framework */; };
+		8B9038B640A63EACCFF30BB379BA357E /* TFHpple-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FEC2B6422C31D2BD736934F9C054079 /* TFHpple-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		928D0E04335B82340005F85E6B6FF1E8 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 642E6328724D183C3BA089A1C99B04BC /* UIProgressView+AFNetworking.m */; };
+		9323AE442E8479F9299A1235B6F87DC8 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 736E76A6EC4F50A60F1FF8B7295C08B9 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94AE40763D22D06CFAC00B4055F56A5A /* CCAvenueViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E4FA2778BAE2201DEDE58C2CFC8C3F6 /* CCAvenueViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95B31D9D71F9E540216811163394F255 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 221CA09C7D6C209E7D65C036A351CC39 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		964BFEA9E3E84571F866D24102FEA675 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F7AEE2C63E81B8ED4BA9CDA01FAD0F /* AFURLRequestSerialization.m */; };
+		A1D737D6D3D781E98ABFEC6EE0C095EB /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 70ED210DD19AA3B98DC00C3294878955 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6306B16FCEC046C978BB2FE9C028A09 /* Pods-ThrymrsPaymentsKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7D5BB4047FC71A1997267450CD1504 /* Pods-ThrymrsPaymentsKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C49779189C377582767A0A682BAB72F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		CAC291A1A5AFD1128E4E7FA4F5A53BC1 /* ThrymrsPaymentsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0118435660D5A753ABE3DD387DC00BE2 /* ThrymrsPaymentsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2C535FEBEE83B3ED5EA78CB848A964B /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFE79C3F84478A94BFCBE3F4A458C6F /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5D4EBCD83C85BF560908DC73AFCC97A /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FE8092FE3EE41BA0F2078A37364429 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8E64C71559B3F4120760CA40C78A8A8 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DF8C1614F321C2648B29570F84D9211 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5C3434FB7FB0533A136199F94877CEC /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F8D09230F6425210EC42EA9E6C2845B /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7366C3C769937DCB1C53A60A76BE342 /* TFHpple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF51D5DD649156AD22F563C510E2D4 /* TFHpple-dummy.m */; };
+		C8EA7B27FCA8377BE686BE03C73E3889 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D70D17BE8B35D43D6D773792D4DC0 /* UIRefreshControl+AFNetworking.m */; };
+		CA35E0E830F8BDE0319DE5202CA163AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C77C14CE65579433C9B53BAFC3E366 /* Foundation.framework */; };
 		CE481BD66E6A7C7C28C34A8086259671 /* Pods-ThrymrsPaymentsKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B49C61594BD3D1664A3834CACF65962C /* Pods-ThrymrsPaymentsKit_Tests-dummy.m */; };
+		CF0E8D70D0E6ECB756F7029AE0842E17 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ACD7F9575D8A08C8D8E3E726E251AB /* AFNetworkActivityIndicatorManager.m */; };
+		D21B03567E4A913EB61828726CF34D8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656AFAFF2AC53859274535C96C43C06F /* CoreGraphics.framework */; };
+		D65865C21F7F118FD65704B9D62D94BE /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 77B8DBEF380FC929B1CF7C282C95DB4F /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7FCFE5F72732C6023F0372FF1472B5A /* CCAvenueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3C3D2413A407AB29FC6327B471F4DC /* CCAvenueViewController.m */; };
+		DB5D9F4D439E72DB6BD6359160CDEF3C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 91616D781E2F0DEC8E5D78DB00321680 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0F9A39FEB294E44F5E628664D8923E8 /* SharedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E718787C62284D3166A797B6A0505F2 /* SharedData.m */; };
+		E102FB6604F2D85FEA78BAF91D4B97C5 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 06FEE0DBF6782F3E8C75F8A5A83047D1 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0BCDEF21CAFE5195C88726E1DC1A732 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 462B1461EB27191093F16D9B15D26F4B /* TFHppleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F381E1AF2DF1D56C4B9ACB5C02588484 /* ThrymrsPaymentsKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14C52A3E198CF86CFD8F9ADA064CDE83 /* ThrymrsPaymentsKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F52C77209A2971AA41CBE67964BDACD7 /* Pods-ThrymrsPaymentsKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC21E4E7EFF9CC471B3635EF3C169EEA /* Pods-ThrymrsPaymentsKit_Example-dummy.m */; };
+		F7A7F61FD37E50F5774D9FC6F3972E48 /* CCTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E52368A49B4D5649DA22AF6F93BDEF /* CCTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FF13325FF4D748C82285692028BEECB6 /* PBXContainerItemProxy */ = {
+		1D7462238BA012BA92C674C7B8D939B3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E23627D4314ACEC01EB870593F07584B;
+			remoteGlobalIDString = 556BE07BE424E90A9DA7025705E95E53;
+			remoteInfo = TFHpple;
+		};
+		76B829AFC5CAC8EA4758941EBF7794E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEE41F399951D91E27BA96C00419BB40;
 			remoteInfo = ThrymrsPaymentsKit;
+		};
+		A69C47D6D176017EC34292B14629D9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ED8BE8BD6A53853974A60E1AC8B1019;
+			remoteInfo = AFNetworking;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0118435660D5A753ABE3DD387DC00BE2 /* ThrymrsPaymentsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThrymrsPaymentsKit-umbrella.h"; sourceTree = "<group>"; };
+		00BCFC947DBB4E2EB79BF17D121B9961 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		0102173332256EDDA372A444FE0C8122 /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslv.h; path = opensslIncludes/openssl/opensslv.h; sourceTree = "<group>"; };
+		02C2B1AFDE68C6262A531C6668B16482 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = krb5_asn.h; path = opensslIncludes/openssl/krb5_asn.h; sourceTree = "<group>"; };
+		04A87AFDEDA90FF4E661008C72D5DD93 /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = opensslIncludes/openssl/pqueue.h; sourceTree = "<group>"; };
+		06FEE0DBF6782F3E8C75F8A5A83047D1 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		07FF64FFAD20A2FFA3E9927B9B5F8C6F /* Base64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64.h; path = ThrymrsPaymentsKit/Classes/Base64.h; sourceTree = "<group>"; };
+		0AB436A70CDC402D812A38F42BAE81DC /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = opensslIncludes/openssl/x509v3.h; sourceTree = "<group>"; };
+		0C51CE8987127F61E9EC29C23D9320DC /* Pods_ThrymrsPaymentsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThrymrsPaymentsKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4FA2778BAE2201DEDE58C2CFC8C3F6 /* CCAvenueViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCAvenueViewController.h; path = ThrymrsPaymentsKit/Classes/CCAvenueViewController.h; sourceTree = "<group>"; };
 		10C5F30ECDBE11BBAF10A3BC7A6ACBB6 /* Pods-ThrymrsPaymentsKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThrymrsPaymentsKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1A8647194D875690C8D8301D0F896D8E /* ThrymrsPaymentsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThrymrsPaymentsKit-prefix.pch"; sourceTree = "<group>"; };
-		1E19A75AE9BD91047550484D4352BAB5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4212E716D6AF4F6B12D18DB8839E5C49 /* Pods_ThrymrsPaymentsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThrymrsPaymentsKit_Tests.framework; path = "Pods-ThrymrsPaymentsKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		44865160127E9EDDD56EF58487B6861A /* ThrymrsPaymentsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThrymrsPaymentsKit.xcconfig; sourceTree = "<group>"; };
+		11EF51D5DD649156AD22F563C510E2D4 /* TFHpple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TFHpple-dummy.m"; sourceTree = "<group>"; };
+		136FF9D3D1B5851F6F7F18AB270DC916 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		14C52A3E198CF86CFD8F9ADA064CDE83 /* ThrymrsPaymentsKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThrymrsPaymentsKit-umbrella.h"; sourceTree = "<group>"; };
+		1575D2BB30C6C7E96124DF380D3E3B54 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		170AB71C4443D65856ACD02C28CD0DD2 /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = opensslIncludes/openssl/ui.h; sourceTree = "<group>"; };
+		172E03DE0E6EA18E338DE22FF74BDBEB /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		184C2B8F6D8FC0F6723F17F5AE508607 /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = opensslIncludes/openssl/e_os2.h; sourceTree = "<group>"; };
+		19137A4D8981AF6ECF1C34A8AFF25172 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = opensslIncludes/openssl/ebcdic.h; sourceTree = "<group>"; };
+		19E15558C5BA9E6F7DD1493D72ECC421 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = opensslIncludes/openssl/buffer.h; sourceTree = "<group>"; };
+		1B45DD4032E87CCC150C0283300FFA67 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		1BA1B7E6BF94E60BD5AD516362ACAD85 /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = opensslIncludes/openssl/rc2.h; sourceTree = "<group>"; };
+		1E572648E7D96A99740B2C107F4F8264 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		20FE20C03C35F934F6E44545F52DF2C5 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = opensslIncludes/openssl/srtp.h; sourceTree = "<group>"; };
+		221CA09C7D6C209E7D65C036A351CC39 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		2241DA40BF03B07CED3EDEDAA19C1542 /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui_compat.h; path = opensslIncludes/openssl/ui_compat.h; sourceTree = "<group>"; };
+		2492D779206C1A6938D0473A25E381CB /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		26BDB50E192F9E81A3E1194BEF361120 /* Base64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Base64.m; path = ThrymrsPaymentsKit/Classes/Base64.m; sourceTree = "<group>"; };
+		291D89441DF7C33A51AE9FB03142B6F8 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		29ACD7F9575D8A08C8D8E3E726E251AB /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		2AAD3FF95210712CDDA6E34BFDA6A11E /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = opensslIncludes/openssl/txt_db.h; sourceTree = "<group>"; };
+		2D9AA2CFA7AE3FA804DA7959E80C74AF /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = opensslIncludes/openssl/dtls1.h; sourceTree = "<group>"; };
+		2E6EAA7F2F4ECC9FB81024F7239AED4A /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		30DA0E5FA8F50CF88D60CA45B8C16EE4 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = opensslIncludes/openssl/md5.h; sourceTree = "<group>"; };
+		33A81D6FB0DE05C4B209BF76297DAD41 /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = opensslIncludes/openssl/pem.h; sourceTree = "<group>"; };
+		33C3DD0B6DD5A104BAB85A91D6277F2F /* XPathQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = Classess/XPathQuery.h; sourceTree = "<group>"; };
+		3680F730F5D014EA3141B01C0CFE9EDC /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = opensslIncludes/openssl/engine.h; sourceTree = "<group>"; };
+		387C78A44F894AEE7B83D97E5A9EF503 /* TFHpple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TFHpple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38EF2FF4AD49A5AA418522F91EAB2CBD /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		39A6A9D4E7ADA23B6E5A49A665E486A5 /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = opensslIncludes/openssl/lhash.h; sourceTree = "<group>"; };
+		39FCDCED5FE5DD89BA8BFF87834A2383 /* ThrymrsPaymentsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ThrymrsPaymentsKit.modulemap; sourceTree = "<group>"; };
+		3A943306575514640252D5019102BB4E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		3B7C0E518010FAB55793D2F19C4D31F9 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		3BF0DCC72D53345FDED6F51D68FE8B33 /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objects.h; path = opensslIncludes/openssl/objects.h; sourceTree = "<group>"; };
+		3EAEDF08C52B22D3158EB89D02C934B2 /* SharedData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SharedData.h; path = ThrymrsPaymentsKit/Classes/SharedData.h; sourceTree = "<group>"; };
+		3F8D09230F6425210EC42EA9E6C2845B /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		3FA7FEB50A441030DBEEFDBEE2FA53AE /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = opensslIncludes/openssl/pem2.h; sourceTree = "<group>"; };
+		3FEC2B6422C31D2BD736934F9C054079 /* TFHpple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFHpple-umbrella.h"; sourceTree = "<group>"; };
+		44D96E3639C5F1CD631C8092630084E8 /* TFHppleElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = Classess/TFHppleElement.m; sourceTree = "<group>"; };
+		450581DE644E028A7BCC8B59B819E54E /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = opensslIncludes/openssl/stack.h; sourceTree = "<group>"; };
+		462B1461EB27191093F16D9B15D26F4B /* TFHppleElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = Classess/TFHppleElement.h; sourceTree = "<group>"; };
+		4684B5ACC9C106A5A41C2D8AF336823C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		473E6FBA1A89160285BBD50DE2F49549 /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = opensslIncludes/openssl/x509_vfy.h; sourceTree = "<group>"; };
+		47917E67E0AC595ECB2D48043ED2A1EA /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = opensslIncludes/openssl/dsa.h; sourceTree = "<group>"; };
 		48C2A5EEE372137F476C9BADB323C9F7 /* Pods-ThrymrsPaymentsKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThrymrsPaymentsKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FFE79C3F84478A94BFCBE3F4A458C6F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		50FAA4DBC817FB58029EDE0150DDF6D0 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = opensslIncludes/openssl/conf.h; sourceTree = "<group>"; };
 		535F4F8EDFB04F0AC707E16E202F75FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6455E282C66C057A2B760ADD8A219478 /* Pods_ThrymrsPaymentsKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThrymrsPaymentsKit_Example.framework; path = "Pods-ThrymrsPaymentsKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		55FE8092FE3EE41BA0F2078A37364429 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		5615C995DF578D82FF223A10D5AF723E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		5D4630C28880092E622ED3E5B3094090 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = opensslIncludes/openssl/ecdh.h; sourceTree = "<group>"; };
+		5DEEA4AA9E73896E0EFAB452A8D6658F /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		5F4FCD07042DF972A7A51A5A3AA91B2F /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = opensslIncludes/openssl/cmac.h; sourceTree = "<group>"; };
+		63F7AEE2C63E81B8ED4BA9CDA01FAD0F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		642E6328724D183C3BA089A1C99B04BC /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		656AFAFF2AC53859274535C96C43C06F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		65EC647C846B9C463A134EC6D32185F8 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		6E2ADB5DD1A8C6FEA3B81CCD068AA10E /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = opensslIncludes/openssl/idea.h; sourceTree = "<group>"; };
+		6E718787C62284D3166A797B6A0505F2 /* SharedData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SharedData.m; path = ThrymrsPaymentsKit/Classes/SharedData.m; sourceTree = "<group>"; };
+		6EA3BD5FA2DEEE2F3F9A52BE873D4460 /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = opensslIncludes/openssl/seed.h; sourceTree = "<group>"; };
 		6F378B3A99AA890D87F56F7DDA7C5D35 /* Pods-ThrymrsPaymentsKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThrymrsPaymentsKit_Example-resources.sh"; sourceTree = "<group>"; };
+		6FE25E64806B51FC22E2ED7FC4FB6598 /* ThrymrsPaymentsKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ThrymrsPaymentsKit.xcconfig; sourceTree = "<group>"; };
+		704F68FDC7AE995216BF89BD8EF5CC95 /* ThrymrsPaymentsKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ThrymrsPaymentsKit-prefix.pch"; sourceTree = "<group>"; };
+		70ED210DD19AA3B98DC00C3294878955 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		714A449736E28DEDECA1C344B89B9AC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736E76A6EC4F50A60F1FF8B7295C08B9 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		7535FEB7A356B1BE75B0B20294A26304 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = opensslIncludes/openssl/pkcs12.h; sourceTree = "<group>"; };
+		755C7E85FFC12868E778CB9F9758264F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		75B8011DA6C0B6BF10E3ABA5CC1698DF /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = opensslIncludes/openssl/des.h; sourceTree = "<group>"; };
+		76324EE0AB0D145D7E1F6874E498B52A /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		77B8DBEF380FC929B1CF7C282C95DB4F /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		7856C25429DBF709EA1CD67F33E69378 /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = opensslIncludes/openssl/asn1t.h; sourceTree = "<group>"; };
+		78E2416E5C435313994833A1170B7B54 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = opensslIncludes/openssl/whrlpool.h; sourceTree = "<group>"; };
+		794FCB7436FAE4A6A38815F37AB4F269 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798C8F44E2A2F0F54E1AD0DEE16FA600 /* TFHpple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TFHpple.xcconfig; sourceTree = "<group>"; };
+		7A35FA4F5C22E7E850C1837A679CBCCE /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = opensslIncludes/openssl/ssl.h; sourceTree = "<group>"; };
+		7BBDC4DDDC40769839BA15F66C5DAB63 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = opensslIncludes/openssl/hmac.h; sourceTree = "<group>"; };
+		7E262D80C6F6EB29CA6FCCEE2734A037 /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsp.h; path = opensslIncludes/openssl/ocsp.h; sourceTree = "<group>"; };
+		8091F4DABEC62DB790CA01391D1999DF /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = opensslIncludes/openssl/ec.h; sourceTree = "<group>"; };
+		80A3A601902D2F4A82DCC79102DE7DC6 /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = opensslIncludes/openssl/conf_api.h; sourceTree = "<group>"; };
+		813394E0CAA16955D9C0209B2B516E45 /* TFHpple-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TFHpple-prefix.pch"; sourceTree = "<group>"; };
 		8265307F5A36F2C52F7B1A5A306A9CC1 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThrymrsPaymentsKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		835F5FC502B36E4B8B673A0579A17B85 /* Pods-ThrymrsPaymentsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ThrymrsPaymentsKit_Tests.modulemap"; sourceTree = "<group>"; };
+		827881BEC2FDB358402B210E31B6611D /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = opensslIncludes/openssl/bn.h; sourceTree = "<group>"; };
+		835F5FC502B36E4B8B673A0579A17B85 /* Pods-ThrymrsPaymentsKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThrymrsPaymentsKit_Tests.modulemap"; sourceTree = "<group>"; };
+		88B6357B552ACDA02B31619210975F56 /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evp.h; path = opensslIncludes/openssl/evp.h; sourceTree = "<group>"; };
+		8A05856F4B4E0FA67AECEB55E7F6B528 /* TFHpple.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TFHpple.modulemap; sourceTree = "<group>"; };
+		8AF296F214AB20268C6207BDA8F70FC7 /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = opensslIncludes/openssl/ossl_typ.h; sourceTree = "<group>"; };
 		8B7D5BB4047FC71A1997267450CD1504 /* Pods-ThrymrsPaymentsKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThrymrsPaymentsKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CD07B5B7D96AA167DED23B5BF0F404B /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		8DB70727BECA5444776F8C5A5B4540FE /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		8EFF5C270D233AAFEE3D19658E719599 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91616D781E2F0DEC8E5D78DB00321680 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		9218547A65AA82C2576B06801AD014CE /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = opensslIncludes/openssl/ripemd.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93AA1B91F07DCC7B470400F0A1E1DCE7 /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl3.h; path = opensslIncludes/openssl/ssl3.h; sourceTree = "<group>"; };
 		945023015E1A9A2454C46D59B1F1AE9D /* Pods-ThrymrsPaymentsKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThrymrsPaymentsKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		975E3D4116D60D456FEE7AB99E790655 /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = opensslIncludes/openssl/safestack.h; sourceTree = "<group>"; };
+		97BDF173D5816917B32B3AB3EB689093 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		9A3A10D283720858BCA67A8123591874 /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kssl.h; path = opensslIncludes/openssl/kssl.h; sourceTree = "<group>"; };
 		9A6B7CABADDE2F0560329906EA2A8D84 /* Pods-ThrymrsPaymentsKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThrymrsPaymentsKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9AC0158E8E6C3CF7F982BDFF88BA2BC8 /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = opensslIncludes/openssl/cast.h; sourceTree = "<group>"; };
 		9B765373C6BBC563A91368F83348D3F6 /* Pods-ThrymrsPaymentsKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThrymrsPaymentsKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9FF825FE730EE1F2C0FB33DDA9DD228C /* ThrymrsPaymentsKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ThrymrsPaymentsKit.modulemap; sourceTree = "<group>"; };
+		9DF8C1614F321C2648B29570F84D9211 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		A34EC73B71EDBBA3768F5A222943403D /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = opensslIncludes/openssl/asn1_mac.h; sourceTree = "<group>"; };
+		A4B7B4893E1B3775929471D2165B28D8 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		A7796B0F8089C002DC900EAD004DDCA3 /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl23.h; path = opensslIncludes/openssl/ssl23.h; sourceTree = "<group>"; };
+		A83F60EACB1FE4AC9159037D1398445B /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		AA0E860BC8DBBA081F7DF097D997D480 /* Pods-ThrymrsPaymentsKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThrymrsPaymentsKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AA80320226FE44B8B2BA0446334617C4 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		AC832EB22277C9C6B105E923464B39B2 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		AC8841B654B18F4A9287865D68EAB451 /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509.h; path = opensslIncludes/openssl/x509.h; sourceTree = "<group>"; };
 		ACA9D54F53F42943434E384F9A6027AF /* Pods-ThrymrsPaymentsKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThrymrsPaymentsKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADE1D956E8F7F968439BEECEACAF26AB /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = opensslIncludes/openssl/camellia.h; sourceTree = "<group>"; };
+		B1282F0CF4E463CFF14BD72C3222E141 /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl2.h; path = opensslIncludes/openssl/ssl2.h; sourceTree = "<group>"; };
+		B1C624F2B6641172DAB09EF5F28E1ED9 /* CCTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCTool.m; path = ThrymrsPaymentsKit/Classes/CCTool.m; sourceTree = "<group>"; };
+		B23AD1FC356C4903E20CA9C00196CEB0 /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = opensslIncludes/openssl/cms.h; sourceTree = "<group>"; };
+		B31E3D9A900BBA7A4DA7B458DBDF8371 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = opensslIncludes/openssl/ecdsa.h; sourceTree = "<group>"; };
 		B49C61594BD3D1664A3834CACF65962C /* Pods-ThrymrsPaymentsKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThrymrsPaymentsKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		B588608C958885509E4EB6417A96FA9A /* Pods-ThrymrsPaymentsKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThrymrsPaymentsKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B712597F08789799307CF8D49A8CF2FC /* TFHpple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = Classess/TFHpple.h; sourceTree = "<group>"; };
+		B7994115B4A83730A94D78FCCEBC994B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		B82FCBAA4ACCF32882958B130C9B25D5 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = opensslIncludes/openssl/opensslconf.h; sourceTree = "<group>"; };
 		B8BCCD29BDF1669D731277F3D799A481 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA9CEDE62336BF9155DD1C3B0AB3C022 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ThrymrsPaymentsKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		CA30BA36D4D12AE8758FA24285E9C74E /* ThrymrsPaymentsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ThrymrsPaymentsKit.framework; path = ThrymrsPaymentsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B945F2BD925FC743A8F18695BFE617E6 /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dh.h; path = opensslIncludes/openssl/dh.h; sourceTree = "<group>"; };
+		BAE9662E00CAAE01BF5423B3478084C4 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = opensslIncludes/openssl/aes.h; sourceTree = "<group>"; };
+		BC9299AE042E1C790912F325F8E7282F /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		C0C383DF814E0A84B2A3F35E39EA1D38 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = opensslIncludes/openssl/crypto.h; sourceTree = "<group>"; };
+		C13B74E05352255AC1A313F04F863A32 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = opensslIncludes/openssl/comp.h; sourceTree = "<group>"; };
+		C60B6C480AA74269B93C8E92038FE9B4 /* XPathQuery.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = Classess/XPathQuery.m; sourceTree = "<group>"; };
+		C7BE9CAE4BAD17EF6EA43DA4A3FE044A /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		CA948500C3125BEE0A0EDD0B9B075E6B /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = opensslIncludes/openssl/obj_mac.h; sourceTree = "<group>"; };
 		CC21E4E7EFF9CC471B3635EF3C169EEA /* Pods-ThrymrsPaymentsKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThrymrsPaymentsKit_Example-dummy.m"; sourceTree = "<group>"; };
-		D070A63F6902AC72FF81B23237E60EDF /* Pods-ThrymrsPaymentsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ThrymrsPaymentsKit_Example.modulemap"; sourceTree = "<group>"; };
+		CE85AFB382681B3DBC026F57D8C90FF3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA323A419186F0BB092C05D111B00D2 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = lib/libcrypto.a; sourceTree = "<group>"; };
+		D070A63F6902AC72FF81B23237E60EDF /* Pods-ThrymrsPaymentsKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ThrymrsPaymentsKit_Example.modulemap"; sourceTree = "<group>"; };
+		D12BBA40080C6526A9A314D3094D297C /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = opensslIncludes/openssl/pkcs7.h; sourceTree = "<group>"; };
+		D16D70D17BE8B35D43D6D773792D4DC0 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		D195BAE9D44EE12DED8EB14711459BBF /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = opensslIncludes/openssl/rc4.h; sourceTree = "<group>"; };
+		D5A797DA3F4BE7242AB2FFD6FBAB9788 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = opensslIncludes/openssl/symhacks.h; sourceTree = "<group>"; };
+		D6804ACBE1E86DE1817D1FF7BFEB4F68 /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsa.h; path = opensslIncludes/openssl/rsa.h; sourceTree = "<group>"; };
+		D75AF4195FDC2B70A77DE5A3969BDDE8 /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des_old.h; path = opensslIncludes/openssl/des_old.h; sourceTree = "<group>"; };
+		D8929551BB39B325DD9EE65B4A14874E /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = opensslIncludes/openssl/mdc2.h; sourceTree = "<group>"; };
+		D8A3603D363EE650B1B92585EC8CFFB6 /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = modes.h; path = opensslIncludes/openssl/modes.h; sourceTree = "<group>"; };
+		D9C77C14CE65579433C9B53BAFC3E366 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB6B9184B6F6F33D60F291DB6E9F2518 /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		DCCF1D1D403CC14189FEC61FAF2D5168 /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls1.h; path = opensslIncludes/openssl/tls1.h; sourceTree = "<group>"; };
+		DDEBE84E0FA0AF6A952F3BDD9FA9522B /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = opensslIncludes/openssl/bio.h; sourceTree = "<group>"; };
+		DEC78898451A1F0848A9F2510DC93B37 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		DF95EA06A33344D57FD8046D5B8C8566 /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = opensslIncludes/openssl/blowfish.h; sourceTree = "<group>"; };
+		E1E52368A49B4D5649DA22AF6F93BDEF /* CCTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCTool.h; path = ThrymrsPaymentsKit/Classes/CCTool.h; sourceTree = "<group>"; };
+		E29272F6D99F2DBB973047878395B4BE /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = opensslIncludes/openssl/rand.h; sourceTree = "<group>"; };
+		E5810F8D4AEE6926E6B069FF62A50659 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = opensslIncludes/openssl/srp.h; sourceTree = "<group>"; };
 		E5AF7124C9A870635DA02EFDFE9EB44F /* Pods-ThrymrsPaymentsKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThrymrsPaymentsKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E694C8DE1580BDF1F7A7E67CE91D07B6 /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = opensslIncludes/openssl/asn1.h; sourceTree = "<group>"; };
+		E9013653228B0161229A403C37B17EC0 /* TFHpple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = Classess/TFHpple.m; sourceTree = "<group>"; };
+		EA189D86881D79AF624FBF2762B5D3FD /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = opensslIncludes/openssl/md4.h; sourceTree = "<group>"; };
+		EAFC2AE17712E29FD025AAAFA820D8F2 /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = opensslIncludes/openssl/err.h; sourceTree = "<group>"; };
+		ECB5916AAE9706D41EE2AE25E7AA7153 /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dso.h; path = opensslIncludes/openssl/dso.h; sourceTree = "<group>"; };
+		ED660B22E61EABA8C392ADCDDF3D2D0E /* ThrymrsPaymentsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThrymrsPaymentsKit-dummy.m"; sourceTree = "<group>"; };
+		EE8AAA3DBE98AE61F5465411BB6C075E /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		EF3C3D2413A407AB29FC6327B471F4DC /* CCAvenueViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCAvenueViewController.m; path = ThrymrsPaymentsKit/Classes/CCAvenueViewController.m; sourceTree = "<group>"; };
+		F05137D68BEEC2EB2B8BBB8799022470 /* Pods_ThrymrsPaymentsKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThrymrsPaymentsKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39E9BE2DF5E0C983AE382D92987D00C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		F40CAA537E6CF11E6AF5AC3CFB6AC59E /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = opensslIncludes/openssl/ts.h; sourceTree = "<group>"; };
+		F45102F6FF054843818D665A38EEBB0B /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = lib/libssl.a; sourceTree = "<group>"; };
 		F5320291EA8E20B559E64D095C172604 /* Pods-ThrymrsPaymentsKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThrymrsPaymentsKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F675B27674FBCDD27DF26757E4DFB616 /* ThrymrsPaymentsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThrymrsPaymentsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F993089D7E284FE7669AC3BD561815AD /* Pods-ThrymrsPaymentsKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThrymrsPaymentsKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		FE4E472744825B0A7C69984B961F1969 /* ThrymrsPaymentsKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ThrymrsPaymentsKit-dummy.m"; sourceTree = "<group>"; };
+		FD38B01E2DADB74E5C800A03694320AF /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = opensslIncludes/openssl/sha.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,33 +298,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		28765C3266BF6443E4D0E0A677D40EEB /* Frameworks */ = {
+		48D0674F26B82D522C4154A6E17C78E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D54B670B404A339E438196829DA8734 /* Foundation.framework in Frameworks */,
+				693DD33331751805E1E6EE1FAE057D30 /* CoreFoundation.framework in Frameworks */,
+				1841F4F769E036BCEE521035DD4C9EBA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD8963CD1537635179387941AF5BE540 /* Frameworks */ = {
+		696C34524A61B3D78CB8C9657AFFD5E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49779189C377582767A0A682BAB72F0 /* Foundation.framework in Frameworks */,
+				88C39B2BA87AF9B49BA7EBAE8C97A97E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFF1DF2012090FE3486A66957F97214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185FBF8C1848D3B1D908F2CFAFA088B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE94C9B25B4F11077CB1F5C4D52D4F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21B03567E4A913EB61828726CF34D8F /* CoreGraphics.framework in Frameworks */,
+				CA35E0E830F8BDE0319DE5202CA163AD /* Foundation.framework in Frameworks */,
+				3C4406F5BE08998EF225724EDA89C1B1 /* MobileCoreServices.framework in Frameworks */,
+				7CFC9154F164D2B85083A8AAD71CD6FD /* Security.framework in Frameworks */,
+				60C2A0882C15C9CAA1BC4DF1AD09771F /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2198F8831B51F1F143EF6D1258240A40 /* ThrymrsPaymentsKit */ = {
+		0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA9CEDE62336BF9155DD1C3B0AB3C022 /* ReplaceMe.m */,
-				50E3D41B9DCF9294BE3636C425113728 /* Support Files */,
+				50ADC7A5553061C8515E0980C069A4AD /* iOS */,
 			);
-			name = ThrymrsPaymentsKit;
-			path = ../..;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BA8B71F3DC98F23FCC8F025C891F35C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8C4323B6507D242BECFEFCB421405F1 /* AFNetworking */,
+				D95C44FF97FC4AFB7D1F2B54223A4576 /* OpenSSL */,
+				8E563141A1F2B782BC4086DA33517E7E /* TFHpple */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27F518C588280AA54E2FD5B50B6A91D5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B686ECA85932DFB773E72F9923A98D2C /* ThrymrsPaymentsKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2FFE328510C137BEB6D59B23EAAC2C83 /* Pods-ThrymrsPaymentsKit_Example */ = {
@@ -120,6 +382,31 @@
 			path = "Target Support Files/Pods-ThrymrsPaymentsKit_Example";
 			sourceTree = "<group>";
 		};
+		47959683F9F3EC75905B016080EACB69 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				91616D781E2F0DEC8E5D78DB00321680 /* AFNetworkActivityIndicatorManager.h */,
+				29ACD7F9575D8A08C8D8E3E726E251AB /* AFNetworkActivityIndicatorManager.m */,
+				3F8D09230F6425210EC42EA9E6C2845B /* UIActivityIndicatorView+AFNetworking.h */,
+				EE8AAA3DBE98AE61F5465411BB6C075E /* UIActivityIndicatorView+AFNetworking.m */,
+				DB6B9184B6F6F33D60F291DB6E9F2518 /* UIAlertView+AFNetworking.h */,
+				C7BE9CAE4BAD17EF6EA43DA4A3FE044A /* UIAlertView+AFNetworking.m */,
+				9DF8C1614F321C2648B29570F84D9211 /* UIButton+AFNetworking.h */,
+				136FF9D3D1B5851F6F7F18AB270DC916 /* UIButton+AFNetworking.m */,
+				221CA09C7D6C209E7D65C036A351CC39 /* UIImage+AFNetworking.h */,
+				38EF2FF4AD49A5AA418522F91EAB2CBD /* UIImageView+AFNetworking.h */,
+				3A943306575514640252D5019102BB4E /* UIImageView+AFNetworking.m */,
+				8CD07B5B7D96AA167DED23B5BF0F404B /* UIKit+AFNetworking.h */,
+				1575D2BB30C6C7E96124DF380D3E3B54 /* UIProgressView+AFNetworking.h */,
+				642E6328724D183C3BA089A1C99B04BC /* UIProgressView+AFNetworking.m */,
+				77B8DBEF380FC929B1CF7C282C95DB4F /* UIRefreshControl+AFNetworking.h */,
+				D16D70D17BE8B35D43D6D773792D4DC0 /* UIRefreshControl+AFNetworking.m */,
+				65EC647C846B9C463A134EC6D32185F8 /* UIWebView+AFNetworking.h */,
+				172E03DE0E6EA18E338DE22FF74BDBEB /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
 		5014803B4EC91ED7AC01B3FCE711F9A4 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,18 +416,28 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		50E3D41B9DCF9294BE3636C425113728 /* Support Files */ = {
+		50ADC7A5553061C8515E0980C069A4AD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1E19A75AE9BD91047550484D4352BAB5 /* Info.plist */,
-				9FF825FE730EE1F2C0FB33DDA9DD228C /* ThrymrsPaymentsKit.modulemap */,
-				44865160127E9EDDD56EF58487B6861A /* ThrymrsPaymentsKit.xcconfig */,
-				FE4E472744825B0A7C69984B961F1969 /* ThrymrsPaymentsKit-dummy.m */,
-				1A8647194D875690C8D8301D0F896D8E /* ThrymrsPaymentsKit-prefix.pch */,
-				0118435660D5A753ABE3DD387DC00BE2 /* ThrymrsPaymentsKit-umbrella.h */,
+				4684B5ACC9C106A5A41C2D8AF336823C /* CoreFoundation.framework */,
+				656AFAFF2AC53859274535C96C43C06F /* CoreGraphics.framework */,
+				D9C77C14CE65579433C9B53BAFC3E366 /* Foundation.framework */,
+				5615C995DF578D82FF223A10D5AF723E /* MobileCoreServices.framework */,
+				B7994115B4A83730A94D78FCCEBC994B /* Security.framework */,
+				DEC78898451A1F0848A9F2510DC93B37 /* SystemConfiguration.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ThrymrsPaymentsKit";
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76F4E4401C2D443966F25E7C7A4BAEE8 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				06FEE0DBF6782F3E8C75F8A5A83047D1 /* AFHTTPSessionManager.h */,
+				755C7E85FFC12868E778CB9F9758264F /* AFHTTPSessionManager.m */,
+				5DEEA4AA9E73896E0EFAB452A8D6658F /* AFURLSessionManager.h */,
+				8DB70727BECA5444776F8C5A5B4540FE /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
 			sourceTree = "<group>";
 		};
 		774F87DC84E4480342FE8BD8C8DF9F0F /* Pods-ThrymrsPaymentsKit_Tests */ = {
@@ -161,59 +458,302 @@
 			path = "Target Support Files/Pods-ThrymrsPaymentsKit_Tests";
 			sourceTree = "<group>";
 		};
+		7CD182F4C4CE0E4CD65CA4738172B9CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE85AFB382681B3DBC026F57D8C90FF3 /* Info.plist */,
+				8A05856F4B4E0FA67AECEB55E7F6B528 /* TFHpple.modulemap */,
+				798C8F44E2A2F0F54E1AD0DEE16FA600 /* TFHpple.xcconfig */,
+				11EF51D5DD649156AD22F563C510E2D4 /* TFHpple-dummy.m */,
+				813394E0CAA16955D9C0209B2B516E45 /* TFHpple-prefix.pch */,
+				3FEC2B6422C31D2BD736934F9C054079 /* TFHpple-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TFHpple";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D07DB4A1D7B678F00C13B9E80D1CF6ED /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				FD94947EA8F08573C814569668431474 /* Products */,
+				27F518C588280AA54E2FD5B50B6A91D5 /* Development Pods */,
+				0F75DF6C7C5F002280EC53F48E80B587 /* Frameworks */,
+				1BA8B71F3DC98F23FCC8F025C891F35C /* Pods */,
+				C7D38E285B5809E9D2E9D5AC8504F0C8 /* Products */,
 				5014803B4EC91ED7AC01B3FCE711F9A4 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		82D13ADBB14480CCF442388ED97C30B4 /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				A83F60EACB1FE4AC9159037D1398445B /* AFURLRequestSerialization.h */,
+				63F7AEE2C63E81B8ED4BA9CDA01FAD0F /* AFURLRequestSerialization.m */,
+				4FFE79C3F84478A94BFCBE3F4A458C6F /* AFURLResponseSerialization.h */,
+				1E572648E7D96A99740B2C107F4F8264 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		8E563141A1F2B782BC4086DA33517E7E /* TFHpple */ = {
+			isa = PBXGroup;
+			children = (
+				B712597F08789799307CF8D49A8CF2FC /* TFHpple.h */,
+				E9013653228B0161229A403C37B17EC0 /* TFHpple.m */,
+				462B1461EB27191093F16D9B15D26F4B /* TFHppleElement.h */,
+				44D96E3639C5F1CD631C8092630084E8 /* TFHppleElement.m */,
+				33C3DD0B6DD5A104BAB85A91D6277F2F /* XPathQuery.h */,
+				C60B6C480AA74269B93C8E92038FE9B4 /* XPathQuery.m */,
+				7CD182F4C4CE0E4CD65CA4738172B9CA /* Support Files */,
+			);
+			path = TFHpple;
+			sourceTree = "<group>";
+		};
+		95465360E8155F61ADF62CA46B811AD3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				794FCB7436FAE4A6A38815F37AB4F269 /* Info.plist */,
+				39FCDCED5FE5DD89BA8BFF87834A2383 /* ThrymrsPaymentsKit.modulemap */,
+				6FE25E64806B51FC22E2ED7FC4FB6598 /* ThrymrsPaymentsKit.xcconfig */,
+				ED660B22E61EABA8C392ADCDDF3D2D0E /* ThrymrsPaymentsKit-dummy.m */,
+				704F68FDC7AE995216BF89BD8EF5CC95 /* ThrymrsPaymentsKit-prefix.pch */,
+				14C52A3E198CF86CFD8F9ADA064CDE83 /* ThrymrsPaymentsKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ThrymrsPaymentsKit";
+			sourceTree = "<group>";
+		};
+		A2A5F3D90E01ACE312D76FB77999E564 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				AA80320226FE44B8B2BA0446334617C4 /* AFNetworkReachabilityManager.h */,
+				A4B7B4893E1B3775929471D2165B28D8 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		B686ECA85932DFB773E72F9923A98D2C /* ThrymrsPaymentsKit */ = {
+			isa = PBXGroup;
+			children = (
+				07FF64FFAD20A2FFA3E9927B9B5F8C6F /* Base64.h */,
+				26BDB50E192F9E81A3E1194BEF361120 /* Base64.m */,
+				0E4FA2778BAE2201DEDE58C2CFC8C3F6 /* CCAvenueViewController.h */,
+				EF3C3D2413A407AB29FC6327B471F4DC /* CCAvenueViewController.m */,
+				E1E52368A49B4D5649DA22AF6F93BDEF /* CCTool.h */,
+				B1C624F2B6641172DAB09EF5F28E1ED9 /* CCTool.m */,
+				3EAEDF08C52B22D3158EB89D02C934B2 /* SharedData.h */,
+				6E718787C62284D3166A797B6A0505F2 /* SharedData.m */,
+				95465360E8155F61ADF62CA46B811AD3 /* Support Files */,
+			);
+			name = ThrymrsPaymentsKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B8C4323B6507D242BECFEFCB421405F1 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				736E76A6EC4F50A60F1FF8B7295C08B9 /* AFNetworking.h */,
+				DCB96BEFC61EEC6B71E14EF30977D306 /* NSURLConnection */,
+				76F4E4401C2D443966F25E7C7A4BAEE8 /* NSURLSession */,
+				A2A5F3D90E01ACE312D76FB77999E564 /* Reachability */,
+				BD37A92E1AD735695A347C7B12DFF598 /* Security */,
+				82D13ADBB14480CCF442388ED97C30B4 /* Serialization */,
+				F293F4A919FF46CE16DAC22BC6237A7E /* Support Files */,
+				47959683F9F3EC75905B016080EACB69 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		BD37A92E1AD735695A347C7B12DFF598 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				70ED210DD19AA3B98DC00C3294878955 /* AFSecurityPolicy.h */,
+				AC832EB22277C9C6B105E923464B39B2 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		C7D38E285B5809E9D2E9D5AC8504F0C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF5C270D233AAFEE3D19658E719599 /* AFNetworking.framework */,
+				0C51CE8987127F61E9EC29C23D9320DC /* Pods_ThrymrsPaymentsKit_Example.framework */,
+				F05137D68BEEC2EB2B8BBB8799022470 /* Pods_ThrymrsPaymentsKit_Tests.framework */,
+				387C78A44F894AEE7B83D97E5A9EF503 /* TFHpple.framework */,
+				F675B27674FBCDD27DF26757E4DFB616 /* ThrymrsPaymentsKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D95C44FF97FC4AFB7D1F2B54223A4576 /* OpenSSL */ = {
+			isa = PBXGroup;
+			children = (
+				BAE9662E00CAAE01BF5423B3478084C4 /* aes.h */,
+				E694C8DE1580BDF1F7A7E67CE91D07B6 /* asn1.h */,
+				A34EC73B71EDBBA3768F5A222943403D /* asn1_mac.h */,
+				7856C25429DBF709EA1CD67F33E69378 /* asn1t.h */,
+				DDEBE84E0FA0AF6A952F3BDD9FA9522B /* bio.h */,
+				DF95EA06A33344D57FD8046D5B8C8566 /* blowfish.h */,
+				827881BEC2FDB358402B210E31B6611D /* bn.h */,
+				19E15558C5BA9E6F7DD1493D72ECC421 /* buffer.h */,
+				ADE1D956E8F7F968439BEECEACAF26AB /* camellia.h */,
+				9AC0158E8E6C3CF7F982BDFF88BA2BC8 /* cast.h */,
+				5F4FCD07042DF972A7A51A5A3AA91B2F /* cmac.h */,
+				B23AD1FC356C4903E20CA9C00196CEB0 /* cms.h */,
+				C13B74E05352255AC1A313F04F863A32 /* comp.h */,
+				50FAA4DBC817FB58029EDE0150DDF6D0 /* conf.h */,
+				80A3A601902D2F4A82DCC79102DE7DC6 /* conf_api.h */,
+				C0C383DF814E0A84B2A3F35E39EA1D38 /* crypto.h */,
+				75B8011DA6C0B6BF10E3ABA5CC1698DF /* des.h */,
+				D75AF4195FDC2B70A77DE5A3969BDDE8 /* des_old.h */,
+				B945F2BD925FC743A8F18695BFE617E6 /* dh.h */,
+				47917E67E0AC595ECB2D48043ED2A1EA /* dsa.h */,
+				ECB5916AAE9706D41EE2AE25E7AA7153 /* dso.h */,
+				2D9AA2CFA7AE3FA804DA7959E80C74AF /* dtls1.h */,
+				184C2B8F6D8FC0F6723F17F5AE508607 /* e_os2.h */,
+				19137A4D8981AF6ECF1C34A8AFF25172 /* ebcdic.h */,
+				8091F4DABEC62DB790CA01391D1999DF /* ec.h */,
+				5D4630C28880092E622ED3E5B3094090 /* ecdh.h */,
+				B31E3D9A900BBA7A4DA7B458DBDF8371 /* ecdsa.h */,
+				3680F730F5D014EA3141B01C0CFE9EDC /* engine.h */,
+				EAFC2AE17712E29FD025AAAFA820D8F2 /* err.h */,
+				88B6357B552ACDA02B31619210975F56 /* evp.h */,
+				7BBDC4DDDC40769839BA15F66C5DAB63 /* hmac.h */,
+				6E2ADB5DD1A8C6FEA3B81CCD068AA10E /* idea.h */,
+				02C2B1AFDE68C6262A531C6668B16482 /* krb5_asn.h */,
+				9A3A10D283720858BCA67A8123591874 /* kssl.h */,
+				39A6A9D4E7ADA23B6E5A49A665E486A5 /* lhash.h */,
+				EA189D86881D79AF624FBF2762B5D3FD /* md4.h */,
+				30DA0E5FA8F50CF88D60CA45B8C16EE4 /* md5.h */,
+				D8929551BB39B325DD9EE65B4A14874E /* mdc2.h */,
+				D8A3603D363EE650B1B92585EC8CFFB6 /* modes.h */,
+				CA948500C3125BEE0A0EDD0B9B075E6B /* obj_mac.h */,
+				3BF0DCC72D53345FDED6F51D68FE8B33 /* objects.h */,
+				7E262D80C6F6EB29CA6FCCEE2734A037 /* ocsp.h */,
+				B82FCBAA4ACCF32882958B130C9B25D5 /* opensslconf.h */,
+				0102173332256EDDA372A444FE0C8122 /* opensslv.h */,
+				8AF296F214AB20268C6207BDA8F70FC7 /* ossl_typ.h */,
+				33A81D6FB0DE05C4B209BF76297DAD41 /* pem.h */,
+				3FA7FEB50A441030DBEEFDBEE2FA53AE /* pem2.h */,
+				7535FEB7A356B1BE75B0B20294A26304 /* pkcs12.h */,
+				D12BBA40080C6526A9A314D3094D297C /* pkcs7.h */,
+				04A87AFDEDA90FF4E661008C72D5DD93 /* pqueue.h */,
+				E29272F6D99F2DBB973047878395B4BE /* rand.h */,
+				1BA1B7E6BF94E60BD5AD516362ACAD85 /* rc2.h */,
+				D195BAE9D44EE12DED8EB14711459BBF /* rc4.h */,
+				9218547A65AA82C2576B06801AD014CE /* ripemd.h */,
+				D6804ACBE1E86DE1817D1FF7BFEB4F68 /* rsa.h */,
+				975E3D4116D60D456FEE7AB99E790655 /* safestack.h */,
+				6EA3BD5FA2DEEE2F3F9A52BE873D4460 /* seed.h */,
+				FD38B01E2DADB74E5C800A03694320AF /* sha.h */,
+				E5810F8D4AEE6926E6B069FF62A50659 /* srp.h */,
+				20FE20C03C35F934F6E44545F52DF2C5 /* srtp.h */,
+				7A35FA4F5C22E7E850C1837A679CBCCE /* ssl.h */,
+				B1282F0CF4E463CFF14BD72C3222E141 /* ssl2.h */,
+				A7796B0F8089C002DC900EAD004DDCA3 /* ssl23.h */,
+				93AA1B91F07DCC7B470400F0A1E1DCE7 /* ssl3.h */,
+				450581DE644E028A7BCC8B59B819E54E /* stack.h */,
+				D5A797DA3F4BE7242AB2FFD6FBAB9788 /* symhacks.h */,
+				DCCF1D1D403CC14189FEC61FAF2D5168 /* tls1.h */,
+				F40CAA537E6CF11E6AF5AC3CFB6AC59E /* ts.h */,
+				2AAD3FF95210712CDDA6E34BFDA6A11E /* txt_db.h */,
+				170AB71C4443D65856ACD02C28CD0DD2 /* ui.h */,
+				2241DA40BF03B07CED3EDEDAA19C1542 /* ui_compat.h */,
+				78E2416E5C435313994833A1170B7B54 /* whrlpool.h */,
+				AC8841B654B18F4A9287865D68EAB451 /* x509.h */,
+				473E6FBA1A89160285BBD50DE2F49549 /* x509_vfy.h */,
+				0AB436A70CDC402D812A38F42BAE81DC /* x509v3.h */,
+				E81935A934A6C1CE68C7415745981E2C /* Frameworks */,
+			);
+			path = OpenSSL;
+			sourceTree = "<group>";
+		};
+		DCB96BEFC61EEC6B71E14EF30977D306 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				2492D779206C1A6938D0473A25E381CB /* AFHTTPRequestOperation.h */,
+				BC9299AE042E1C790912F325F8E7282F /* AFHTTPRequestOperation.m */,
+				F39E9BE2DF5E0C983AE382D92987D00C /* AFHTTPRequestOperationManager.h */,
+				76324EE0AB0D145D7E1F6874E498B52A /* AFHTTPRequestOperationManager.m */,
+				2E6EAA7F2F4ECC9FB81024F7239AED4A /* AFURLConnectionOperation.h */,
+				1B45DD4032E87CCC150C0283300FFA67 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		E81935A934A6C1CE68C7415745981E2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEA323A419186F0BB092C05D111B00D2 /* libcrypto.a */,
+				F45102F6FF054843818D665A38EEBB0B /* libssl.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D07DB4A1D7B678F00C13B9E80D1CF6ED /* Development Pods */ = {
+		F293F4A919FF46CE16DAC22BC6237A7E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2198F8831B51F1F143EF6D1258240A40 /* ThrymrsPaymentsKit */,
+				3B7C0E518010FAB55793D2F19C4D31F9 /* AFNetworking.modulemap */,
+				291D89441DF7C33A51AE9FB03142B6F8 /* AFNetworking.xcconfig */,
+				00BCFC947DBB4E2EB79BF17D121B9961 /* AFNetworking-dummy.m */,
+				97BDF173D5816917B32B3AB3EB689093 /* AFNetworking-prefix.pch */,
+				55FE8092FE3EE41BA0F2078A37364429 /* AFNetworking-umbrella.h */,
+				714A449736E28DEDECA1C344B89B9AC0 /* Info.plist */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		FD94947EA8F08573C814569668431474 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6455E282C66C057A2B760ADD8A219478 /* Pods_ThrymrsPaymentsKit_Example.framework */,
-				4212E716D6AF4F6B12D18DB8839E5C49 /* Pods_ThrymrsPaymentsKit_Tests.framework */,
-				CA30BA36D4D12AE8758FA24285E9C74E /* ThrymrsPaymentsKit.framework */,
-			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		11D767E0CD062A18428C26C6517A8789 /* Headers */ = {
+		657DDFC2F53785D8C4CF08ED7539C801 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61F0C227F1D1554D2B7059674E892BF3 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h in Headers */,
+				3998F3080D6EE6E6A3D3700424730886 /* AFHTTPRequestOperation.h in Headers */,
+				59EED3331F3B1C33002CEEDC /* Base64.h in Headers */,
+				86A4516B3CE647E633349AC05226C207 /* AFHTTPRequestOperationManager.h in Headers */,
+				E102FB6604F2D85FEA78BAF91D4B97C5 /* AFHTTPSessionManager.h in Headers */,
+				DB5D9F4D439E72DB6BD6359160CDEF3C /* AFNetworkActivityIndicatorManager.h in Headers */,
+				B5D4EBCD83C85BF560908DC73AFCC97A /* AFNetworking-umbrella.h in Headers */,
+				9323AE442E8479F9299A1235B6F87DC8 /* AFNetworking.h in Headers */,
+				78705591C6850CE867D0356F476E0B6D /* AFNetworkReachabilityManager.h in Headers */,
+				A1D737D6D3D781E98ABFEC6EE0C095EB /* AFSecurityPolicy.h in Headers */,
+				50D1316AE12493D48D36ACD12F9977B3 /* AFURLConnectionOperation.h in Headers */,
+				0F433A80193ACD16AF746D01A22EE0C1 /* AFURLRequestSerialization.h in Headers */,
+				B2C535FEBEE83B3ED5EA78CB848A964B /* AFURLResponseSerialization.h in Headers */,
+				37700BB8D4FF2ABDB00FAEF1B539C440 /* AFURLSessionManager.h in Headers */,
+				C5C3434FB7FB0533A136199F94877CEC /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				5F4ADB57CEB7A57AC58F1E6AAD42A72A /* UIAlertView+AFNetworking.h in Headers */,
+				B8E64C71559B3F4120760CA40C78A8A8 /* UIButton+AFNetworking.h in Headers */,
+				95B31D9D71F9E540216811163394F255 /* UIImage+AFNetworking.h in Headers */,
+				300F34DBD1EAD72F220D42721638201C /* UIImageView+AFNetworking.h in Headers */,
+				46003CFB00EE9EDB7751E5D9515CC8D4 /* UIKit+AFNetworking.h in Headers */,
+				5286E996186A50899A9B6E300D65015B /* UIProgressView+AFNetworking.h in Headers */,
+				D65865C21F7F118FD65704B9D62D94BE /* UIRefreshControl+AFNetworking.h in Headers */,
+				25E58152597C474DC6A3F6C5CA90CADE /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6606534A05BCB549A5DCF1E2252C0012 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558EF0410DB5DE4F1B6D039AF0C64614 /* Base64.h in Headers */,
+				94AE40763D22D06CFAC00B4055F56A5A /* CCAvenueViewController.h in Headers */,
+				F7A7F61FD37E50F5774D9FC6F3972E48 /* CCTool.h in Headers */,
+				57138B933613CFE20D2501F2991DF17B /* SharedData.h in Headers */,
+				F381E1AF2DF1D56C4B9ACB5C02588484 /* ThrymrsPaymentsKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8342A860EAFA433736CCCD52B9DBE2FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B0BC77331474D99BC4A313B5893457 /* Pods-ThrymrsPaymentsKit_Example-umbrella.h in Headers */,
+				59EED3321F3B1C32002CEEDC /* Base64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,36 +762,40 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6306B16FCEC046C978BB2FE9C028A09 /* Pods-ThrymrsPaymentsKit_Tests-umbrella.h in Headers */,
+				59EED3311F3B1C31002CEEDC /* Base64.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D00C1FF9010CC6EEE1C5FA69EC1578DB /* Headers */ = {
+		ABFBB10E3F79FAD532D90DA3720719B4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAC291A1A5AFD1128E4E7FA4F5A53BC1 /* ThrymrsPaymentsKit-umbrella.h in Headers */,
+				8B9038B640A63EACCFF30BB379BA357E /* TFHpple-umbrella.h in Headers */,
+				59EED3301F3B1C0B002CEEDC /* Base64.h in Headers */,
+				16BD1651AF0AE0F1DCA312EB33AD2FB2 /* TFHpple.h in Headers */,
+				F0BCDEF21CAFE5195C88726E1DC1A732 /* TFHppleElement.h in Headers */,
+				71AFB2FDE9B7AAAC73E116EA9B3394C3 /* XPathQuery.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		12DC4777581C32C33172E76D20B57A31 /* Pods-ThrymrsPaymentsKit_Example */ = {
+		1ED8BE8BD6A53853974A60E1AC8B1019 /* AFNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7FF5C630745A519DE27635C2982CB06 /* Build configuration list for PBXNativeTarget "Pods-ThrymrsPaymentsKit_Example" */;
+			buildConfigurationList = 69ABC1B9B08969C52A33BB850C4BAF95 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
 			buildPhases = (
-				84C381DC20A84D532F8BAD9495487CD5 /* Sources */,
-				28765C3266BF6443E4D0E0A677D40EEB /* Frameworks */,
-				11D767E0CD062A18428C26C6517A8789 /* Headers */,
+				A4E0970C6BE276B3627DE93351468352 /* Sources */,
+				FE94C9B25B4F11077CB1F5C4D52D4F13 /* Frameworks */,
+				657DDFC2F53785D8C4CF08ED7539C801 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2B780111DFA0929D9CF680C9BEF765A2 /* PBXTargetDependency */,
 			);
-			name = "Pods-ThrymrsPaymentsKit_Example";
-			productName = "Pods-ThrymrsPaymentsKit_Example";
-			productReference = 6455E282C66C057A2B760ADD8A219478 /* Pods_ThrymrsPaymentsKit_Example.framework */;
+			name = AFNetworking;
+			productName = AFNetworking;
+			productReference = 8EFF5C270D233AAFEE3D19658E719599 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		30B284A98C8E264127F15E627C970760 /* Pods-ThrymrsPaymentsKit_Tests */ = {
@@ -268,16 +812,33 @@
 			);
 			name = "Pods-ThrymrsPaymentsKit_Tests";
 			productName = "Pods-ThrymrsPaymentsKit_Tests";
-			productReference = 4212E716D6AF4F6B12D18DB8839E5C49 /* Pods_ThrymrsPaymentsKit_Tests.framework */;
+			productReference = F05137D68BEEC2EB2B8BBB8799022470 /* Pods_ThrymrsPaymentsKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E23627D4314ACEC01EB870593F07584B /* ThrymrsPaymentsKit */ = {
+		556BE07BE424E90A9DA7025705E95E53 /* TFHpple */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5A9B1C24E3BCC721B122C2AB8057B220 /* Build configuration list for PBXNativeTarget "ThrymrsPaymentsKit" */;
+			buildConfigurationList = F3E083F9B43E737B1CF5BEC03F1504C9 /* Build configuration list for PBXNativeTarget "TFHpple" */;
 			buildPhases = (
-				C769AAE3D842CCA24EF9C2BB1C6EF5E3 /* Sources */,
-				DD8963CD1537635179387941AF5BE540 /* Frameworks */,
-				D00C1FF9010CC6EEE1C5FA69EC1578DB /* Headers */,
+				DDE0F8FA6508B19879793F3CE70AB630 /* Sources */,
+				48D0674F26B82D522C4154A6E17C78E3 /* Frameworks */,
+				ABFBB10E3F79FAD532D90DA3720719B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFHpple;
+			productName = TFHpple;
+			productReference = 387C78A44F894AEE7B83D97E5A9EF503 /* TFHpple.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEE41F399951D91E27BA96C00419BB40 /* ThrymrsPaymentsKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1F57F5526BC76F38903976D79A1A0A /* Build configuration list for PBXNativeTarget "ThrymrsPaymentsKit" */;
+			buildPhases = (
+				43BEA44FE4E8DEDB87FC0A64B1C7CACE /* Sources */,
+				8BFF1DF2012090FE3486A66957F97214 /* Frameworks */,
+				6606534A05BCB549A5DCF1E2252C0012 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -285,7 +846,27 @@
 			);
 			name = ThrymrsPaymentsKit;
 			productName = ThrymrsPaymentsKit;
-			productReference = CA30BA36D4D12AE8758FA24285E9C74E /* ThrymrsPaymentsKit.framework */;
+			productReference = F675B27674FBCDD27DF26757E4DFB616 /* ThrymrsPaymentsKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E2B5D361542290E4FE3053759A64D4D7 /* Pods-ThrymrsPaymentsKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041658109B4C443FED6C5BFCA12179ED /* Build configuration list for PBXNativeTarget "Pods-ThrymrsPaymentsKit_Example" */;
+			buildPhases = (
+				5E14BFBCE5B1D12BF66C4AFEF86DF864 /* Sources */,
+				696C34524A61B3D78CB8C9657AFFD5E5 /* Frameworks */,
+				8342A860EAFA433736CCCD52B9DBE2FA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61B114DBE3DEF863BA1A755E1B7C6628 /* PBXTargetDependency */,
+				9315A40C159B8E7EA7EF8B7D3737BD60 /* PBXTargetDependency */,
+				8831458EC6C53DCD642C13E03EC353A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-ThrymrsPaymentsKit_Example";
+			productName = "Pods-ThrymrsPaymentsKit_Example";
+			productReference = 0C51CE8987127F61E9EC29C23D9320DC /* Pods_ThrymrsPaymentsKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -305,13 +886,15 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FD94947EA8F08573C814569668431474 /* Products */;
+			productRefGroup = C7D38E285B5809E9D2E9D5AC8504F0C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				12DC4777581C32C33172E76D20B57A31 /* Pods-ThrymrsPaymentsKit_Example */,
+				1ED8BE8BD6A53853974A60E1AC8B1019 /* AFNetworking */,
+				E2B5D361542290E4FE3053759A64D4D7 /* Pods-ThrymrsPaymentsKit_Example */,
 				30B284A98C8E264127F15E627C970760 /* Pods-ThrymrsPaymentsKit_Tests */,
-				E23627D4314ACEC01EB870593F07584B /* ThrymrsPaymentsKit */,
+				556BE07BE424E90A9DA7025705E95E53 /* TFHpple */,
+				DEE41F399951D91E27BA96C00419BB40 /* ThrymrsPaymentsKit */,
 			);
 		};
 /* End PBXProject section */
@@ -325,38 +908,89 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84C381DC20A84D532F8BAD9495487CD5 /* Sources */ = {
+		43BEA44FE4E8DEDB87FC0A64B1C7CACE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4858B2778FA9EC6FCA780D78407E846A /* Pods-ThrymrsPaymentsKit_Example-dummy.m in Sources */,
+				0C592BEC4544F3ED13507C1BB5AA583B /* Base64.m in Sources */,
+				D7FCFE5F72732C6023F0372FF1472B5A /* CCAvenueViewController.m in Sources */,
+				509A14FF3282E1DB5FADBB81635D71EA /* CCTool.m in Sources */,
+				E0F9A39FEB294E44F5E628664D8923E8 /* SharedData.m in Sources */,
+				642522FB516DB5DAE5F03AE71D45BF28 /* ThrymrsPaymentsKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C769AAE3D842CCA24EF9C2BB1C6EF5E3 /* Sources */ = {
+		5E14BFBCE5B1D12BF66C4AFEF86DF864 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A1DB5FE5348559BA459CBBC28BFE55 /* ReplaceMe.m in Sources */,
-				4ABF2B4EF9473BD654E6431FD408E8D8 /* ThrymrsPaymentsKit-dummy.m in Sources */,
+				F52C77209A2971AA41CBE67964BDACD7 /* Pods-ThrymrsPaymentsKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4E0970C6BE276B3627DE93351468352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A93A8656A260977A67B4682BCBA26F /* AFHTTPRequestOperation.m in Sources */,
+				07CCA2377CCFDD58EB8F0738D9D88917 /* AFHTTPRequestOperationManager.m in Sources */,
+				452BE369A0DEEFCAD4A522BA15C3EC53 /* AFHTTPSessionManager.m in Sources */,
+				CF0E8D70D0E6ECB756F7029AE0842E17 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				0C1869A00421DFBA1C82AF772E2F13BE /* AFNetworking-dummy.m in Sources */,
+				0DD519176F5025EA203D9DD53C7456C3 /* AFNetworkReachabilityManager.m in Sources */,
+				6FC4B7B0F5119FBBD5120C275A72F9B3 /* AFSecurityPolicy.m in Sources */,
+				485E2C5ACB6046EBA39015AE5CDC18B2 /* AFURLConnectionOperation.m in Sources */,
+				964BFEA9E3E84571F866D24102FEA675 /* AFURLRequestSerialization.m in Sources */,
+				2ED997B259CF87164EB742D3C6E3C670 /* AFURLResponseSerialization.m in Sources */,
+				8634FF44ABEFF40B5D561593B24C9B1E /* AFURLSessionManager.m in Sources */,
+				59B5809E8E97F19BCDF9B18278740A6B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				23F62266558CF7EA25B7AE2C7E75E67F /* UIAlertView+AFNetworking.m in Sources */,
+				7A6F8593BBD598773DCC198202C35A7F /* UIButton+AFNetworking.m in Sources */,
+				1D974D4F7BB49961BF96F2A9084B4812 /* UIImageView+AFNetworking.m in Sources */,
+				928D0E04335B82340005F85E6B6FF1E8 /* UIProgressView+AFNetworking.m in Sources */,
+				C8EA7B27FCA8377BE686BE03C73E3889 /* UIRefreshControl+AFNetworking.m in Sources */,
+				6F9313FED3763C57F6EC60B6175CDD25 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE0F8FA6508B19879793F3CE70AB630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7366C3C769937DCB1C53A60A76BE342 /* TFHpple-dummy.m in Sources */,
+				45F425E0B4D4496A9B4E78F3A46D2A30 /* TFHpple.m in Sources */,
+				6C267D3E4575F21B78CA423011EFD7C8 /* TFHppleElement.m in Sources */,
+				1D713786999B405071D2D387463EF5C0 /* XPathQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2B780111DFA0929D9CF680C9BEF765A2 /* PBXTargetDependency */ = {
+		61B114DBE3DEF863BA1A755E1B7C6628 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 1ED8BE8BD6A53853974A60E1AC8B1019 /* AFNetworking */;
+			targetProxy = A69C47D6D176017EC34292B14629D9FC /* PBXContainerItemProxy */;
+		};
+		8831458EC6C53DCD642C13E03EC353A4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ThrymrsPaymentsKit;
-			target = E23627D4314ACEC01EB870593F07584B /* ThrymrsPaymentsKit */;
-			targetProxy = FF13325FF4D748C82285692028BEECB6 /* PBXContainerItemProxy */;
+			target = DEE41F399951D91E27BA96C00419BB40 /* ThrymrsPaymentsKit */;
+			targetProxy = 76B829AFC5CAC8EA4758941EBF7794E2 /* PBXContainerItemProxy */;
+		};
+		9315A40C159B8E7EA7EF8B7D3737BD60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TFHpple;
+			target = 556BE07BE424E90A9DA7025705E95E53 /* TFHpple */;
+			targetProxy = 1D7462238BA012BA92C674C7B8D939B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		17A2EAB410A46689BC31EB8545379DAE /* Debug */ = {
+		160D693143EBAD0D70D5A85FED2A83B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA0E860BC8DBBA081F7DF097D997D480 /* Pods-ThrymrsPaymentsKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 291D89441DF7C33A51AE9FB03142B6F8 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -364,6 +998,39 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D7C8D32877096797AEE02C55A035AFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C5F30ECDBE11BBAF10A3BC7A6ACBB6 /* Pods-ThrymrsPaymentsKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -376,7 +1043,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Example/Pods-ThrymrsPaymentsKit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -388,11 +1055,11 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5F85B92426E1E5D48761E77E4D2A3727 /* Debug */ = {
+		379F5089ACED2DB53C4C25935DE0A5C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44865160127E9EDDD56EF58487B6861A /* ThrymrsPaymentsKit.xcconfig */;
+			baseConfigurationReference = 798C8F44E2A2F0F54E1AD0DEE16FA600 /* TFHpple.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -406,14 +1073,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ThrymrsPaymentsKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TFHpple/TFHpple-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFHpple/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/TFHpple/TFHpple.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ThrymrsPaymentsKit;
+				PRODUCT_NAME = TFHpple;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -422,6 +1089,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6AF02F1F9B7B8055963F6F7819DCAFB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798C8F44E2A2F0F54E1AD0DEE16FA600 /* TFHpple.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TFHpple/TFHpple-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TFHpple/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TFHpple/TFHpple.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TFHpple;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -464,39 +1164,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		860186917C5595F8DFE459C38EF08028 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44865160127E9EDDD56EF58487B6861A /* ThrymrsPaymentsKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ThrymrsPaymentsKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ThrymrsPaymentsKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -585,9 +1252,9 @@
 			};
 			name = Debug;
 		};
-		B7FFB81322986C2B8627A53DADDC3C2A /* Release */ = {
+		D0B047438D9DBE20C3D5218E727753CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10C5F30ECDBE11BBAF10A3BC7A6ACBB6 /* Pods-ThrymrsPaymentsKit_Example.release.xcconfig */;
+			baseConfigurationReference = 291D89441DF7C33A51AE9FB03142B6F8 /* AFNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -601,20 +1268,83 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Example/Pods-ThrymrsPaymentsKit_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ThrymrsPaymentsKit_Example;
+				PRODUCT_NAME = AFNetworking;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E22059C451F297C1F2396FC3455B46F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE25E64806B51FC22E2ED7FC4FB6598 /* ThrymrsPaymentsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThrymrsPaymentsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ThrymrsPaymentsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5DFC3B88606AB9A57193F2C9978364F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE25E64806B51FC22E2ED7FC4FB6598 /* ThrymrsPaymentsKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ThrymrsPaymentsKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ThrymrsPaymentsKit/ThrymrsPaymentsKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ThrymrsPaymentsKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -657,9 +1387,54 @@
 			};
 			name = Release;
 		};
+		F3326EF6547C923E78101CFD9263716F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA0E860BC8DBBA081F7DF097D997D480 /* Pods-ThrymrsPaymentsKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThrymrsPaymentsKit_Example/Pods-ThrymrsPaymentsKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ThrymrsPaymentsKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		041658109B4C443FED6C5BFCA12179ED /* Build configuration list for PBXNativeTarget "Pods-ThrymrsPaymentsKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3326EF6547C923E78101CFD9263716F /* Debug */,
+				2D7C8D32877096797AEE02C55A035AFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1C21031A1D7D923E0D931CAD4B845370 /* Build configuration list for PBXNativeTarget "Pods-ThrymrsPaymentsKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -678,20 +1453,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5A9B1C24E3BCC721B122C2AB8057B220 /* Build configuration list for PBXNativeTarget "ThrymrsPaymentsKit" */ = {
+		69ABC1B9B08969C52A33BB850C4BAF95 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F85B92426E1E5D48761E77E4D2A3727 /* Debug */,
-				860186917C5595F8DFE459C38EF08028 /* Release */,
+				160D693143EBAD0D70D5A85FED2A83B9 /* Debug */,
+				D0B047438D9DBE20C3D5218E727753CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7FF5C630745A519DE27635C2982CB06 /* Build configuration list for PBXNativeTarget "Pods-ThrymrsPaymentsKit_Example" */ = {
+		9F1F57F5526BC76F38903976D79A1A0A /* Build configuration list for PBXNativeTarget "ThrymrsPaymentsKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				17A2EAB410A46689BC31EB8545379DAE /* Debug */,
-				B7FFB81322986C2B8627A53DADDC3C2A /* Release */,
+				E22059C451F297C1F2396FC3455B46F0 /* Debug */,
+				E5DFC3B88606AB9A57193F2C9978364F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3E083F9B43E737B1CF5BEC03F1504C9 /* Build configuration list for PBXNativeTarget "TFHpple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				379F5089ACED2DB53C4C25935DE0A5C3 /* Debug */,
+				6AF02F1F9B7B8055963F6F7819DCAFB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

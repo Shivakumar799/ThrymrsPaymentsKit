@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "Base64.h"
+#import "CCAvenueViewController.h"
+#import "CCTool.h"
+#import "SharedData.h"
 
 FOUNDATION_EXPORT double ThrymrsPaymentsKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char ThrymrsPaymentsKitVersionString[];
