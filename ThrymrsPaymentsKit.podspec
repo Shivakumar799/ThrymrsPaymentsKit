@@ -38,7 +38,6 @@ Description Description Description Description Description
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
 #s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'AFNetworking', '~> 2.3'
-s.dependency 'OpenSSL'
-s.dependency 'TFHpple'
+   s.dependency 'AFNetworking', '~> 2.3','OpenSSL','TFHpple'
+
 end
